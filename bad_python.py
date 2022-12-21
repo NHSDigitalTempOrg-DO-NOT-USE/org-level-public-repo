@@ -24,6 +24,12 @@ passwd = "".join(
     )
 )
 
+random_dict = {}
+
+random_dict[undefined_var] = "something"
+
+undefined_var = "random_var"
+
 
 def some_random_function(incorrectCaseVariable, rAnDoMcAsEvArIaBlE):
     print("Some random string" + "another random string")
@@ -33,6 +39,16 @@ def some_random_function(incorrectCaseVariable, rAnDoMcAsEvArIaBlE):
 def other_function():
     return "127.0.0.2"
 
+    return "something else"
+
 
 def another_function():
+    temp = (1, 2, 3)
+
+    temp2 = temp + 5
+    print(len(3))
+
+    temp3 = [] == "string"
+    if not temp:
+        ValueError("SOME ERROR THAT ISN'T RAISED")
     return "127.0.0.2"

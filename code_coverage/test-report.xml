@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/amaan5260/projects/nhsd/org-level-public-repo/code_coverage/coveredCode.test.js">
+    <testCase name="multiplyBy5 multiplies numbers by 5" duration="1"/>
+  </file>
+</testExecutions>

@@ -1,0 +1,22 @@
+{
+  "name": "code_coverage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "jest": "^29.3.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "collectCoverage": true,
+    "testResultsProcessor": "jest-sonar-reporter"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "jest-sonar-reporter": "^2.0.0"
+  }
+}

@@ -1,4 +1,4 @@
-import { multiplyBy5 } from "./coveredCode.js";
+import { multiplyBy5 } from "../coveredCode.js";
 
 describe("multiplyBy5", () => {
   it("multiplies numbers by 5", () => {
